@@ -1,7 +1,7 @@
 # Дополнительное практическое задание по модулю 1
 grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]] # Список
 students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'} # Множество
-StudSort = (sorted(list(students))) # отсортировал + перевёл в список для возможности доставать по индексу
+StudSort = (sorted(students)) # отсортировал + перевёл в список для возможности доставать по индексу
 Ratings = {StudSort[0] : (sum(grades[0])) / len(grades[0]),
            StudSort[1] : (sum(grades[1])) / len(grades[1]),
            StudSort[2] : (sum(grades[2])) / len(grades[2]),
